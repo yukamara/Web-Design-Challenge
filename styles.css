@@ -8,6 +8,21 @@ p {
     background-color: rgb(81, 175, 160);
 }
 
+/* Data Table color */
+.tab-color {
+    background-color: rgb(255, 255, 255);
+}
+
+h4 {
+    color: rgb(81, 175, 160);
+}
+
+/* Position of right nav elements */
+
+/* .nav-pos {
+    text-align: right;
+} */
+
 /* create word-wrap aroung homepage image */
 .img-wrap {
     float: left;
