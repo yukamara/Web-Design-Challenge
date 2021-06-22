@@ -10,8 +10,7 @@
             rel="stylesheet"
             integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
             crossorigin="anonymous">
-        <link rel="stylesheet"
-            href="C:\Users\yu_ka\Desktop\BootCamp\Web-Design-Challenge\styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
@@ -29,11 +28,13 @@
                                 id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">Plots</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="visual1.html">Temperature</a>
+                                <li><a class="dropdown-item" href="temperature.html">Temperature</a>
                                 </li>
-                                <li><a class="dropdown-item" href="visual2.html">Humidity</a></li>
-                                <li><a class="dropdown-item" href="visual3.html">Cloudiness</a></li>
-                                <li><a class="dropdown-item" href="visual4.html">Windspeed</a></li>
+                                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                </li>
+                                <li><a class="dropdown-item" href="windspeed.html">Windspeed</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -46,15 +47,15 @@
                 </div>
             </div>
         </nav>
-        <!-- Third visualization: Cloudiness -->
+        <!-- First visualization: Humidity -->
         <div class="container content cont-bg space">
             <div class="row">
                 <div class=col-md-8>
                     <div class="row visual-bg visual-pad">
                         <div class="col-md-12">
-                            <h4>Cloudiness</h4>
+                            <h4>Humidity</h4>
                             <hr>
-                            <img src="Assets/Fig3.png" alt="City Latitude vs. Cloudiness">
+                            <img src="Assets/Fig2.png" alt="City Latitude vs. Humidity">
                             <p>
                                 As expected, the weather becomes more significantly warmar as one
                                 approaches
@@ -75,26 +76,26 @@
 
                 <!-- visualizations -->
                 <div class="col-md-4">
-                    <div class="row visual-bg visual-pad">
-                        <div class="col-md-12">
+                    <div class="col-md-12">
+                        <div class="row visual-bg visual-pad">
                             <h4>Visualizations</h4>
                             <hr>
                             <div class="row">
                                 <div class="col-4 col-md-6">
-                                    <a href="visual1.html"><img src="Assets/Fig1.png"
+                                    <a href="temperature.html"><img src="Assets/Fig1.png"
                                             class="comp-img"
                                             alt="City Latitude vs. Maximum Temperature"></a>
                                 </div>
                                 <div class="col-4 col-md-6">
-                                    <a href="visual2.html"><img src="Assets/Fig2.png"
+                                    <a href="humidity.html"><img src="Assets/Fig2.png"
                                             class="comp-img" alt="City Latitude vs. Humidity"></a>
                                 </div>
                                 <div class="col-4 col-md-6">
-                                    <a href="visual3.html"><img src="Assets/Fig3.png"
+                                    <a href="cloudiness.html"><img src="Assets/Fig3.png"
                                             class="comp-img" alt="City Latitude vs. Cloudiness"></a>
                                 </div>
                                 <div class="col-4 col-md-6">
-                                    <a href="visual4.html"><img src="Assets/Fig4.png"
+                                    <a href="windspeed.html"><img src="Assets/Fig4.png"
                                             class="comp-img" alt="City Latitude vs. Wind Speed"></a>
                                 </div>
                             </div>
